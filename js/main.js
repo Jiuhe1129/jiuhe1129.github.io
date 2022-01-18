@@ -113,6 +113,6 @@ $(function(){
   //获取浏览器宽度
   var _width = $(window).width(); 
   if(_width < 1500){
-         $(".i").remove();
+         $(".l").remove();
   }
 });

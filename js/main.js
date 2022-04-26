@@ -76,6 +76,46 @@ $(".b").mousemove(function () {
   $(".box2").css("opacity", "0")
 });
 
+$(".qq").mouseover(function () {
+  $("#qq").css("opacity", "1");
+  $("#qq").css("top", "0%");
+  $(".q").css("opacity", "0")
+}); $(".qq").mouseout(function () {
+  $("#qq").css("opacity", "0");
+  $("#qq").css("top", "-100%");
+  $(".q").css("opacity", "1")
+});
+
+$(".wx").mouseover(function () {
+  $("#wx").css("opacity", "1");
+  $("#wx").css("top", "0%");
+  $(".w").css("opacity", "0")
+}); $(".wx").mouseout(function () {
+  $("#wx").css("opacity", "0");
+  $("#wx").css("top", "-100%");
+  $(".w").css("opacity", "1")
+});
+
+$(".zfb").mouseover(function () {
+  $("#zfb").css("opacity", "1");
+  $("#zfb").css("top", "0%");
+  $(".z").css("opacity", "0")
+}); $(".zfb").mouseout(function () {
+  $("#zfb").css("opacity", "0");
+  $("#zfb").css("top", "-100%");
+  $(".z").css("opacity", "1")
+});
+
+$(".sj").mouseover(function () {
+  $("#sj").css("top", "0%");
+  $("#sj").css("opacity", "1")
+  $(".s").css("opacity", "0")
+});
+$(".sj").mouseout(function () {
+  $("#sj").css("opacity", "0");
+  $("#sj").css("top", "-100%");
+  $(".s").css("opacity", "1")
+});
 
 $(".hire").click(function () {
   $(".box1>div").css("opacity", "0")
@@ -109,10 +149,10 @@ setTimeout(function () {
 
 
 
-$(function(){
+$(function () {
   //获取浏览器宽度
-  var _width = $(window).width(); 
-  if(_width < 1500){
-         $(".l").remove();
+  var _width = $(window).width();
+  if (_width < 1500) {
+    $(".l").remove();
   }
 });

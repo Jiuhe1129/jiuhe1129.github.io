@@ -70,8 +70,7 @@ nav img{position: relative; top: 40px;}
 .b{width: 100%; height: 20px; position: absolute; top: 0; z-index: 0;}
 
 @media screen and (max-width: 1500px) {
-    .l{
-      display: none;
-    }
-    .sj{display: block; width: 100%; height: 100vh; text-align: center; line-height: 100vh; font-size: 20px; color: #fff ; background: url(../img/banner.jpg);}
+    .l{display: none;}
+    body{width: 100%; height: 100vh; background: url(../img/banner.jpg);}
+    .sj{display: flex; flex-wrap: wrap; justify-content: space-around; width: 100%; transform: translateY(50vh); font-size: 20px; color: #fff;}
   }

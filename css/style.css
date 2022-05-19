@@ -41,6 +41,7 @@ nav img{position: relative; top: 40px;}
 .box2 .lianxi ul {display: flex;}
 .box2 .lianxi ul li{width: 100%; height: 25vh; text-align: center; line-height: 25vh; font-size: 18px; font-weight: 600; transition: .5s;}
 .box2 .lianxi ul a{width: 100%; height: 25vh; text-align: center; line-height: 25vh; font-size: 18px; font-weight: 600; transition: .5s;}
+.box2 .lianxi ul .li:hover{background:  rgb(187, 187, 187);}
 #qq,#wx,#zfb{position: absolute; top: -100%; opacity: 0; transition: .5s; width: 12.45%; height: 100%;}
 .q,.w,.z{opacity: 1; transition: .3s;}
 #qq{left: 0; }#wx{left: 12.5%; }#zfb{left: 25%;}

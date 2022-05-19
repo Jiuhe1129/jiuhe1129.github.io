@@ -75,9 +75,8 @@ nav img{position: relative; top: 40px;}
 
 .box4 ul {width: 150%; display: flex; }
 
-.box4 li {width: 33.254%; height: 50vh; }
 .box4 a{font-size: 23px; color: white; text-shadow: 0 0 20px #000;}
-.box4 ul li{position: relative; text-align: center; line-height: 50vh;}
+.box4 ul li{width: 33.33%; height: 50vh; text-align: center; line-height: 50vh;}
 .box4 .jiuhe{background: url(../img/jiuhe.jpg)no-repeat center; background-size: cover;}
 .box4 .home{background: url(../img/home.jpg)no-repeat center; background-size: cover;}
 .box4 .wy{background: url(../img/wy.jpg)no-repeat center; background-size: cover;}
